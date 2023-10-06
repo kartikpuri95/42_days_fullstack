@@ -1,0 +1,52 @@
+
+/* Reset some browser defaults */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    article {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+article h2 {
+    color: darkslategray;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
